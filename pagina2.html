@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Página Web</title>
+</head>
+<body>
+    <h1 class="titulo" id="titulo">Homepage html + css + javascript</h1>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="pagina1.html">Página 1</a>
+        <a href="pagina2.html">Página 2</a>
+    </nav>
+
+    <main>
+        <article>
+            <h2>Article</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit possimus provident est odio! Esse labore repellendus reprehenderit inventore dolores incidunt architecto, laboriosam voluptates iusto fuga doloribus, aperiam iure ad magni!
+            </p>
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus vel necessitatibus doloremque quos nihil provident facilis ducimus, placeat fugiat voluptates quasi doloribus at iste tempora animi a numquam illo soluta nisi commodi esse cupiditate! Consectetur recusandae repellendus perspiciatis ex optio.
+            </p>
+
+            <button onclick="mudarCorTitulo()">Mudar cor do título</button>
+        </article>
+
+        <section>
+            <h2>Listas</h2>
+
+            <ul id="lista-nao-ordenada">
+                <li>Lorem.</li>
+                <li>Lorem, ipsum.</li>
+                <li>Lorem, ipsum dolor.</li>
+            </ul>
+
+            <ol>
+                <li>Lorem.</li>
+                <li>Lorem, ipsum.</li>
+                <li>Lorem, ipsum dolor.</li>
+            </ol>
+
+            <button onclick="adicionarItem()">Adicionar item na lista</button>
+        </section>
+
+        <div class="imagem-box">
+            <h3>Imagem</h3>
+            <img id="imagem" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCJsLKLfoI-V1WAbdYAJf7NNrO2ei208WOfw&s" alt="Pinguins">
+            <br>
+            <button onclick="mostrarOuEsconderImagem()">Mostrar / Esconder imagem</button>
+        </div>
+
+        <div class="mensagem-box">
+            <h3>Mensagem</h3>
+            <p id="mensagem"></p>
+            <button onclick="mostrarMensagem()">Clique para ver mensagem</button>
+        </div>
+    </main>
+
+    <footer>
+        <small><i>Footer &copy; 2026</i></small>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
